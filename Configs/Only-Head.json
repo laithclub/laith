@@ -11,7 +11,7 @@
 					"key" : 67,
 					"type" : 2
 				},
-				"enable" : false,
+				"enable" : true,
 				"left" : 
 				{
 					"active" : true,
@@ -25,13 +25,12 @@
 					"type" : 2
 				}
 			},
-			"desync_type" : 0,
 			"enable" : true,
 			"fakeduck" : 
 			{
 				"active" : false,
-				"key" : 5,
-				"type" : 2
+				"key" : 255,
+				"type" : 0
 			},
 			"fakelag" : 
 			{
@@ -59,7 +58,7 @@
 			"autobuy" : 
 			{
 				"enable" : true,
-				"main" : 1,
+				"main" : 2,
 				"misc" : 63,
 				"pistol" : 1
 			},
@@ -74,7 +73,7 @@
 				"z" : 0
 			}
 		},
-		"name" : "33y33r.json",
+		"name" : "Only-Head.json",
 		"players" : 
 		{
 			"esp" : 
@@ -168,7 +167,7 @@
 						"green" : 255,
 						"red" : 255
 					},
-					"enable" : false
+					"enable" : true
 				},
 				"hitmarker" : 
 				{
@@ -428,7 +427,7 @@
 					"misc_chams_3" : 
 					{
 						"brightness" : 100,
-						"enable" : true,
+						"enable" : false,
 						"interpolated" : true,
 						"material" : 0,
 						"metallic_color" : 
@@ -499,7 +498,7 @@
 			"auto_scope" : true,
 			"auto_shoot" : true,
 			"backshoot_bt" : true,
-			"delayshot" : true,
+			"delayshot" : false,
 			"double_tap" : 
 			{
 				"active" : false,
@@ -518,8 +517,8 @@
 			"override_dmg" : 
 			{
 				"active" : false,
-				"key" : 0,
-				"type" : 0
+				"key" : 115,
+				"type" : 1
 			},
 			"posadj" : true,
 			"resolver" : true,
@@ -555,20 +554,20 @@
 				},
 				"weapon_1" : 
 				{
-					"adaptive_baim" : false,
+					"adaptive_baim" : true,
 					"baim" : 0,
 					"baim_under_hp" : 0,
 					"enable" : true,
-					"hitchance" : 50,
+					"hitchance" : 26,
 					"hitchance_type" : 0,
-					"hitscan" : 511,
+					"hitscan" : 127,
 					"hitscan_baim" : 0,
 					"max_misses" : 0,
 					"mindamage" : 30,
 					"mindamage_override" : 0,
 					"multipoint" : true,
-					"pointscale_body" : 80,
-					"pointscale_head" : 70,
+					"pointscale_body" : 25,
+					"pointscale_head" : 81,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
 					"quickstop_options" : 1
@@ -576,18 +575,18 @@
 				"weapon_2" : 
 				{
 					"adaptive_baim" : false,
-					"baim" : 0,
-					"baim_under_hp" : 0,
+					"baim" : 4,
+					"baim_under_hp" : 73,
 					"enable" : true,
-					"hitchance" : 67,
+					"hitchance" : 84,
 					"hitchance_type" : 0,
-					"hitscan" : 31,
-					"hitscan_baim" : 0,
-					"max_misses" : 0,
-					"mindamage" : 82,
+					"hitscan" : 1,
+					"hitscan_baim" : 7,
+					"max_misses" : 1,
+					"mindamage" : 100,
 					"mindamage_override" : 0,
 					"multipoint" : true,
-					"pointscale_body" : 50,
+					"pointscale_body" : 26,
 					"pointscale_head" : 80,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
@@ -596,15 +595,15 @@
 				"weapon_3" : 
 				{
 					"adaptive_baim" : true,
-					"baim" : 6,
-					"baim_under_hp" : 63,
+					"baim" : 4,
+					"baim_under_hp" : 60,
 					"enable" : true,
-					"hitchance" : 59,
+					"hitchance" : 88,
 					"hitchance_type" : 0,
-					"hitscan" : 15,
-					"hitscan_baim" : 1,
+					"hitscan" : 95,
+					"hitscan_baim" : 31,
 					"max_misses" : 1,
-					"mindamage" : 81,
+					"mindamage" : 100,
 					"mindamage_override" : 0,
 					"multipoint" : true,
 					"pointscale_body" : 76,
@@ -639,36 +638,36 @@
 					"baim" : 0,
 					"baim_under_hp" : 0,
 					"enable" : true,
-					"hitchance" : 40,
+					"hitchance" : 0,
 					"hitchance_type" : 0,
 					"hitscan" : 7,
 					"hitscan_baim" : 0,
 					"max_misses" : 0,
-					"mindamage" : 30,
+					"mindamage" : 33,
 					"mindamage_override" : 0,
 					"multipoint" : true,
-					"pointscale_body" : 65,
-					"pointscale_head" : 60,
+					"pointscale_body" : 40,
+					"pointscale_head" : 78,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
-					"quickstop_options" : 0
+					"quickstop_options" : 1
 				},
 				"weapon_6" : 
 				{
 					"adaptive_baim" : false,
-					"baim" : 0,
+					"baim" : 4,
 					"baim_under_hp" : 30,
 					"enable" : true,
-					"hitchance" : 75,
+					"hitchance" : 55,
 					"hitchance_type" : 0,
-					"hitscan" : 7,
+					"hitscan" : 1,
 					"hitscan_baim" : 7,
 					"max_misses" : 0,
-					"mindamage" : 65,
+					"mindamage" : 36,
 					"mindamage_override" : 0,
 					"multipoint" : true,
-					"pointscale_body" : 60,
-					"pointscale_head" : 70,
+					"pointscale_body" : 30,
+					"pointscale_head" : 80,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
 					"quickstop_options" : 1
@@ -755,7 +754,7 @@
 						"red" : 0
 					},
 					"size" : 1.5,
-					"sprite" : 0
+					"sprite" : 2
 				}
 			}
 		}

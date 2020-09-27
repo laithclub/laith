@@ -103,7 +103,7 @@
 			"autobuy" : 
 			{
 				"enable" : true,
-				"main" : 1,
+				"main" : 3,
 				"misc" : 127,
 				"pistol" : 2
 			},
@@ -127,7 +127,7 @@
 			},
 			"monitor_x" : 0,
 			"monitor_y" : 0,
-			"slide_walk" : false,
+			"slide_walk" : true,
 			"speclist_x" : 0,
 			"speclist_y" : 0,
 			"viewmodel" : 
@@ -158,8 +158,8 @@
 					"red" : 255
 				},
 				"bloom_enable" : false,
-				"bloom_factor" : 0,
-				"bloom_scale" : 0,
+				"bloom_factor" : 71,
+				"bloom_scale" : 89,
 				"box" : false,
 				"box_color" : 
 				{
@@ -169,14 +169,14 @@
 					"red" : 255
 				},
 				"dormant" : false,
-				"enable" : false,
-				"flags" : 10,
+				"enable" : true,
+				"flags" : 258,
 				"flags_color" : 
 				{
 					"alpha" : 255,
 					"blue" : 255,
-					"green" : 255,
-					"red" : 255
+					"green" : 0,
+					"red" : 222
 				},
 				"healthbar" : 
 				{
@@ -191,13 +191,13 @@
 					"override_hp" : false
 				},
 				"keybind_list" : true,
-				"name" : false,
+				"name" : true,
 				"name_color" : 
 				{
 					"alpha" : 255,
 					"blue" : 255,
-					"green" : 255,
-					"red" : 255
+					"green" : 191,
+					"red" : 0
 				},
 				"out_of_fov" : 
 				{
@@ -799,14 +799,14 @@
 					"delayshot_value" : 0,
 					"dynamic_mindamage" : true,
 					"enable" : true,
-					"hitchance" : 25,
+					"hitchance" : 39,
 					"hitchance_type" : 0,
 					"hitscan" : 7,
 					"hitscan_baim" : 7,
 					"max_misses" : 0,
 					"mindamage" : 0,
 					"mindamage_override" : 0,
-					"multipoint" : true,
+					"multipoint" : false,
 					"onshot_priority" : true,
 					"pointscale_body" : 15,
 					"pointscale_head" : 86,

@@ -43,7 +43,7 @@
 				"type" : 0
 			},
 			"desync_onshot" : true,
-			"desync_type" : 2,
+			"desync_type" : 0,
 			"enable" : true,
 			"fake_desync" : false,
 			"fake_peek" : true,
@@ -85,7 +85,7 @@
 			"micro_jitter_max" : 0,
 			"micro_jitter_min" : 0,
 			"min_jitter" : 0.0,
-			"opposite_mode" : false,
+			"opposite_mode" : true,
 			"pitch" : 1,
 			"slowwalk" : 
 			{
@@ -93,7 +93,7 @@
 				"key" : 16,
 				"type" : 1
 			},
-			"slowwalk_mode" : 4,
+			"slowwalk_mode" : 5,
 			"slowwalk_speed" : 0,
 			"yaw" : 4
 		},
@@ -233,7 +233,7 @@
 			},
 			"misc" : 
 			{
-				"aim_step" : true,
+				"aim_step" : false,
 				"aspect_ratio" : 81,
 				"blockbot" : 
 				{
@@ -500,8 +500,8 @@
 					"misc_chams_2" : 
 					{
 						"brightness" : 100,
-						"enable" : false,
-						"interpolated" : false,
+						"enable" : true,
+						"interpolated" : true,
 						"material" : 0,
 						"metallic_color" : 
 						{
@@ -608,7 +608,7 @@
 		},
 		"ragebot" : 
 		{
-			"aim_step" : true,
+			"aim_step" : false,
 			"airstuck" : 
 			{
 				"active" : false,
@@ -749,7 +749,7 @@
 					"delayshot_value" : 0,
 					"dynamic_mindamage" : false,
 					"enable" : true,
-					"hitchance" : 95,
+					"hitchance" : 82,
 					"hitchance_type" : 0,
 					"hitscan" : 1,
 					"hitscan_baim" : 7,
@@ -762,7 +762,7 @@
 					"pointscale_head" : 93,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
-					"quickstop_options" : 2
+					"quickstop_options" : 1
 				},
 				"weapon_3" : 
 				{

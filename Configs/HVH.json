@@ -35,14 +35,14 @@
 			"body_lean" : 180.0,
 			"custom_pitch" : 0,
 			"desync_ammount" : 58.0,
-			"desync_ammount_inv" : -58.0,
+			"desync_ammount_inv" : -18.849998474121094,
 			"desync_flicker" : 
 			{
 				"active" : true,
 				"key" : 255,
 				"type" : 4
 			},
-			"desync_onshot" : true,
+			"desync_onshot" : false,
 			"desync_type" : 2,
 			"enable" : true,
 			"fake_desync" : false,
@@ -68,12 +68,12 @@
 				"fakelag_switch_factor" : 16,
 				"max_fakelag_random" : 13,
 				"max_fakelag_ticks" : 17,
-				"min_fakelag_random" : 1,
+				"min_fakelag_random" : 10,
 				"switch_ticks" : 10,
 				"type" : 3
 			},
 			"freestand_fake" : true,
-			"inverted_body_lean" : -180.0,
+			"inverted_body_lean" : -81.0,
 			"inverter" : 
 			{
 				"active" : false,
@@ -83,7 +83,7 @@
 			"max_jitter" : 0.0,
 			"micro_jitter" : false,
 			"micro_jitter_max" : 0,
-			"micro_jitter_min" : 180,
+			"micro_jitter_min" : 48,
 			"min_jitter" : 0.0,
 			"opposite_mode" : true,
 			"pitch" : 3,
@@ -94,7 +94,7 @@
 				"type" : 1
 			},
 			"slowwalk_mode" : 3,
-			"slowwalk_speed" : 48,
+			"slowwalk_speed" : 40,
 			"yaw" : 5
 		},
 		"misc" : 
@@ -103,7 +103,7 @@
 			"autobuy" : 
 			{
 				"enable" : true,
-				"main" : 3,
+				"main" : 1,
 				"misc" : 127,
 				"pistol" : 2
 			},
@@ -121,8 +121,8 @@
 			"menu_color" : 
 			{
 				"alpha" : 255,
-				"blue" : 0,
-				"green" : 255,
+				"blue" : 224,
+				"green" : 0,
 				"red" : 255
 			},
 			"monitor_x" : 0,
@@ -139,9 +139,9 @@
 			"watermark_color" : 
 			{
 				"alpha" : 255,
-				"blue" : 0,
-				"green" : 255,
-				"red" : 255
+				"blue" : 255,
+				"green" : 0,
+				"red" : 222
 			}
 		},
 		"name" : "best-config.json",
@@ -233,7 +233,7 @@
 			},
 			"misc" : 
 			{
-				"aim_step" : true,
+				"aim_step" : false,
 				"aspect_ratio" : 81,
 				"blockbot" : 
 				{
@@ -285,7 +285,7 @@
 						"green" : 255,
 						"red" : 255
 					},
-					"enable" : 1,
+					"enable" : 2,
 					"enable_sound" : true
 				},
 				"hitmarker_sound_type" : 
@@ -608,7 +608,7 @@
 		},
 		"ragebot" : 
 		{
-			"aim_step" : true,
+			"aim_step" : false,
 			"airstuck" : 
 			{
 				"active" : false,
@@ -627,13 +627,13 @@
 			"do_recoil" : true,
 			"double_tap" : 
 			{
-				"active" : false,
+				"active" : true,
 				"key" : 4,
 				"type" : 2
 			},
-			"dt_delay" : 0,
-			"dt_instant" : true,
-			"dt_speed_boost" : 0,
+			"dt_delay" : 50,
+			"dt_instant" : false,
+			"dt_speed_boost" : 100,
 			"enable" : true,
 			"extended_backtracking" : false,
 			"fake_latency" : false,
@@ -646,13 +646,13 @@
 			},
 			"hide_shots" : 
 			{
-				"active" : false,
-				"key" : 0,
-				"type" : 0
+				"active" : true,
+				"key" : 90,
+				"type" : 2
 			},
 			"hitchance_consider_hitbox" : true,
 			"ignore_limbs_if_moving" : false,
-			"improve_accuracy" : true,
+			"improve_accuracy" : false,
 			"matchmaking_mode" : false,
 			"onshot_invert" : false,
 			"override_dmg" : 
@@ -717,9 +717,9 @@
 				"weapon_1" : 
 				{
 					"accuracy_boost" : 0,
-					"adaptive_baim" : true,
+					"adaptive_baim" : false,
 					"baim" : 6,
-					"baim_under_hp" : 30,
+					"baim_under_hp" : 51,
 					"delayshot" : false,
 					"delayshot_value" : 0,
 					"dynamic_mindamage" : false,
@@ -733,8 +733,8 @@
 					"mindamage_override" : 0,
 					"multipoint" : true,
 					"onshot_priority" : true,
-					"pointscale_body" : 90,
-					"pointscale_head" : 51,
+					"pointscale_body" : 78,
+					"pointscale_head" : 76,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
 					"quickstop_options" : 0
@@ -749,7 +749,7 @@
 					"delayshot_value" : 0,
 					"dynamic_mindamage" : false,
 					"enable" : true,
-					"hitchance" : 30,
+					"hitchance" : 34,
 					"hitchance_type" : 0,
 					"hitscan" : 1,
 					"hitscan_baim" : 3,
@@ -757,9 +757,9 @@
 					"mindamage" : 100,
 					"mindamage_override" : 0,
 					"multipoint" : true,
-					"onshot_priority" : false,
-					"pointscale_body" : 51,
-					"pointscale_head" : 60,
+					"onshot_priority" : true,
+					"pointscale_body" : 87,
+					"pointscale_head" : 68,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
 					"quickstop_options" : 0
@@ -783,8 +783,8 @@
 					"mindamage_override" : 0,
 					"multipoint" : true,
 					"onshot_priority" : true,
-					"pointscale_body" : 86,
-					"pointscale_head" : 77,
+					"pointscale_body" : 79,
+					"pointscale_head" : 75,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
 					"quickstop_options" : 0
@@ -858,8 +858,8 @@
 					"mindamage_override" : 0,
 					"multipoint" : true,
 					"onshot_priority" : false,
-					"pointscale_body" : 53,
-					"pointscale_head" : 58,
+					"pointscale_body" : 71,
+					"pointscale_head" : 85,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
 					"quickstop_options" : 1

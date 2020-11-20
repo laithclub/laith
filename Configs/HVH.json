@@ -9,302 +9,375 @@
 				{
 					"active" : false,
 					"key" : 0,
-					"type" : 0
+					"type" : 2
 				},
 				"enable" : false,
-				"forward" : 
+				"left" : 
 				{
 					"active" : false,
 					"key" : 0,
-					"type" : 0
-				},
-				"left" : 
-				{
-					"active" : true,
-					"key" : 88,
 					"type" : 2
 				},
 				"right" : 
 				{
-					"active" : true,
-					"key" : 67,
+					"active" : false,
+					"key" : 0,
 					"type" : 2
 				}
 			},
-			"auto_inverter" : true,
-			"body_lean" : 0.0,
-			"custom_pitch" : 0,
-			"desync_ammount" : 58.0,
-			"desync_ammount_inv" : 58.0,
-			"desync_flicker" : 
-			{
-				"active" : false,
-				"key" : 117,
-				"type" : 2
-			},
-			"desync_onshot" : false,
+			"autoswitch" : false,
+			"breaker" : false,
 			"desync_type" : 2,
 			"enable" : true,
-			"fake_desync" : false,
-			"fake_peek" : false,
-			"fake_peek_inverter" : 
-			{
-				"active" : false,
-				"key" : 113,
-				"type" : 0
-			},
+			"fake_type" : 1,
 			"fakeduck" : 
 			{
 				"active" : false,
 				"key" : 18,
-				"type" : 2
+				"type" : 1
 			},
 			"fakelag" : 
 			{
-				"ddos_onshot" : false,
-				"factor" : 20,
-				"fakelag_flags" : 3,
-				"fakelag_onshot" : false,
-				"fakelag_switch_factor" : 16,
-				"max_fakelag_random" : 15,
-				"max_fakelag_ticks" : 17,
-				"min_fakelag_random" : 11,
-				"switch_ticks" : 18,
-				"type" : 4
+				"factor" : 14,
+				"fakelag_onshot" : true,
+				"switch_ticks" : 29,
+				"type" : 1
 			},
 			"freestand_fake" : false,
-			"inverted_body_lean" : 0.0,
 			"inverter" : 
 			{
 				"active" : false,
 				"key" : 115,
 				"type" : 2
 			},
-			"max_jitter" : 0.0,
-			"micro_jitter" : false,
-			"micro_jitter_max" : 0,
-			"micro_jitter_min" : 48,
-			"min_jitter" : 0.0,
-			"opposite_mode" : true,
-			"pitch" : 4,
+			"pitch" : 1,
 			"slowwalk" : 
 			{
 				"active" : false,
 				"key" : 16,
 				"type" : 1
+			}
+		},
+		"legitbot" : 
+		{
+			"aim_at_backtrack" : false,
+			"backtrack" : false,
+			"backtrack_ticks" : 0,
+			"check_flash" : false,
+			"check_smoke" : false,
+			"deathmatch" : false,
+			"enable" : false,
+			"legit_aa" : false,
+			"legitbot_key" : 
+			{
+				"active" : false,
+				"key" : 0,
+				"type" : 2
 			},
-			"slowwalk_mode" : 3,
-			"slowwalk_speed" : 25,
-			"yaw" : 1
+			"weapon_cfg" : 
+			{
+				"weapon_0" : 
+				{
+					"aim_type" : 0,
+					"autowall" : false,
+					"curviness" : 0.0,
+					"enable_rcs" : false,
+					"enable_weapon" : false,
+					"fov" : 0.0,
+					"fov_type" : 0,
+					"hitbox" : 0,
+					"humanize" : false,
+					"min_damage" : 0,
+					"priority" : 0,
+					"rcs_bullet" : 0,
+					"rcs_fov" : 0.0,
+					"rcs_fov_enable" : false,
+					"rcs_smooth" : 0.0,
+					"rcs_smooth_enable" : false,
+					"rcs_type" : 0,
+					"rcs_x" : 0,
+					"rcs_y" : 0,
+					"shot_delay" : 0,
+					"silent" : false,
+					"silent_fov" : 0.0,
+					"smooth" : 0.0,
+					"smooth_type" : 0,
+					"switch_delay" : 0
+				},
+				"weapon_1" : 
+				{
+					"aim_type" : 0,
+					"autowall" : false,
+					"curviness" : 0.0,
+					"enable_rcs" : false,
+					"enable_weapon" : false,
+					"fov" : 0.0,
+					"fov_type" : 0,
+					"hitbox" : 0,
+					"humanize" : false,
+					"min_damage" : 0,
+					"priority" : 0,
+					"rcs_bullet" : 0,
+					"rcs_fov" : 0.0,
+					"rcs_fov_enable" : false,
+					"rcs_smooth" : 0.0,
+					"rcs_smooth_enable" : false,
+					"rcs_type" : 0,
+					"rcs_x" : 0,
+					"rcs_y" : 0,
+					"shot_delay" : 0,
+					"silent" : false,
+					"silent_fov" : 0.0,
+					"smooth" : 0.0,
+					"smooth_type" : 0,
+					"switch_delay" : 0
+				},
+				"weapon_2" : 
+				{
+					"aim_type" : 0,
+					"autowall" : false,
+					"curviness" : 0.0,
+					"enable_rcs" : false,
+					"enable_weapon" : false,
+					"fov" : 0.0,
+					"fov_type" : 0,
+					"hitbox" : 0,
+					"humanize" : false,
+					"min_damage" : 0,
+					"priority" : 0,
+					"rcs_bullet" : 0,
+					"rcs_fov" : 0.0,
+					"rcs_fov_enable" : false,
+					"rcs_smooth" : 0.0,
+					"rcs_smooth_enable" : false,
+					"rcs_type" : 0,
+					"rcs_x" : 0,
+					"rcs_y" : 0,
+					"shot_delay" : 0,
+					"silent" : false,
+					"silent_fov" : 0.0,
+					"smooth" : 0.0,
+					"smooth_type" : 0,
+					"switch_delay" : 0
+				},
+				"weapon_3" : 
+				{
+					"aim_type" : 0,
+					"autowall" : false,
+					"curviness" : 0.0,
+					"enable_rcs" : false,
+					"enable_weapon" : false,
+					"fov" : 0.0,
+					"fov_type" : 0,
+					"hitbox" : 0,
+					"humanize" : false,
+					"min_damage" : 0,
+					"priority" : 0,
+					"rcs_bullet" : 0,
+					"rcs_fov" : 0.0,
+					"rcs_fov_enable" : false,
+					"rcs_smooth" : 0.0,
+					"rcs_smooth_enable" : false,
+					"rcs_type" : 0,
+					"rcs_x" : 0,
+					"rcs_y" : 0,
+					"shot_delay" : 0,
+					"silent" : false,
+					"silent_fov" : 0.0,
+					"smooth" : 0.0,
+					"smooth_type" : 0,
+					"switch_delay" : 0
+				},
+				"weapon_4" : 
+				{
+					"aim_type" : 0,
+					"autowall" : false,
+					"curviness" : 0.0,
+					"enable_rcs" : false,
+					"enable_weapon" : false,
+					"fov" : 0.0,
+					"fov_type" : 0,
+					"hitbox" : 0,
+					"humanize" : false,
+					"min_damage" : 0,
+					"priority" : 0,
+					"rcs_bullet" : 0,
+					"rcs_fov" : 0.0,
+					"rcs_fov_enable" : false,
+					"rcs_smooth" : 0.0,
+					"rcs_smooth_enable" : false,
+					"rcs_type" : 0,
+					"rcs_x" : 0,
+					"rcs_y" : 0,
+					"shot_delay" : 0,
+					"silent" : false,
+					"silent_fov" : 0.0,
+					"smooth" : 0.0,
+					"smooth_type" : 0,
+					"switch_delay" : 0
+				}
+			}
 		},
 		"misc" : 
 		{
+			"accurate_walk" : false,
+			"agent_changer" : false,
+			"agents_ct" : 0,
+			"agents_t" : 0,
 			"anti_untrusted" : true,
 			"autobuy" : 
 			{
 				"enable" : true,
-				"main" : 1,
-				"misc" : 127,
-				"pistol" : 2
+				"main" : 0,
+				"misc0" : true,
+				"misc1" : true,
+				"misc2" : true,
+				"misc3" : true,
+				"misc4" : true,
+				"misc5" : true,
+				"misc6" : true,
+				"pistol" : 1
 			},
 			"bunnyhop" : true,
-			"clangtag_type" : 0,
-			"clantag" : true,
-			"clantag_string" : "",
-			"duck_on_air" : false,
-			"fast_stop" : false,
+			"clantag" : false,
+			"damage_log" : false,
+			"grenade_esp" : true,
 			"hold_firinganims" : false,
-			"keybind_x" : 0,
-			"keybind_y" : 330,
-			"killsay" : false,
+			"keybinds" : true,
 			"knifebot" : true,
-			"menu_color" : 
+			"monitor" : false,
+			"radiochannel" : 
 			{
-				"alpha" : 255,
-				"blue" : 0,
-				"green" : 255,
-				"red" : 149
+				"radiochannel" : 0
 			},
-			"monitor_x" : 0,
-			"monitor_y" : 0,
-			"slide_walk" : false,
-			"speclist_x" : 0,
-			"speclist_y" : 0,
+			"radiovolume" : 
+			{
+				"radiovolume" : 0
+			},
 			"viewmodel" : 
 			{
-				"x" : 5,
+				"x" : 7,
 				"y" : 8,
 				"z" : -5
 			},
-			"watermark_color" : 
-			{
-				"alpha" : 255,
-				"blue" : 0,
-				"green" : 0,
-				"red" : 255
-			}
+			"watermark" : true
 		},
-		"name" : "lmao.json",
+		"name" : "hvh.json",
 		"players" : 
 		{
 			"esp" : 
 			{
 				"ammo" : false,
-				"ammo_color" : 
-				{
-					"alpha" : 255,
-					"blue" : 255,
-					"green" : 255,
-					"red" : 255
-				},
-				"bloom_enable" : true,
-				"bloom_factor" : 71,
-				"bloom_scale" : 89,
-				"box" : false,
-				"box_color" : 
-				{
-					"alpha" : 255,
-					"blue" : 255,
-					"green" : 255,
-					"red" : 255
-				},
+				"ammo_color0" : 255.0,
+				"ammo_color1" : 255.0,
+				"ammo_color2" : 255.0,
+				"ammo_color3" : 255.0,
+				"ammo_color4" : 2.8025969286496341e-45,
+				"box" : true,
+				"box_color0" : 255.0,
+				"box_color1" : 255.0,
+				"box_color2" : 255.0,
+				"box_color3" : 255.0,
+				"box_color4" : 255.00392150878906,
 				"dormant" : true,
 				"enable" : true,
-				"flags" : 258,
-				"flags_color" : 
-				{
-					"alpha" : 255,
-					"blue" : 255,
-					"green" : 0,
-					"red" : 222
-				},
+				"flags0" : false,
+				"flags1" : false,
+				"flags2" : false,
+				"flags3" : true,
+				"flags4" : true,
+				"flags5" : false,
+				"flags_color0" : 255.0,
+				"flags_color1" : 255.0,
+				"flags_color2" : 255.0,
+				"flags_color3" : 255.0,
+				"flags_color4" : 255.00001525878906,
 				"healthbar" : 
 				{
 					"enable" : true,
-					"hp_color" : 
-					{
-						"alpha" : 255,
-						"blue" : 0,
-						"green" : 255,
-						"red" : 0
-					},
+					"hp_color0" : 0.0,
+					"hp_color1" : 255.0,
+					"hp_color2" : 0.0,
+					"hp_color3" : 255.0,
+					"hp_color4" : 0.0,
 					"override_hp" : false
 				},
-				"keybind_list" : true,
 				"name" : true,
-				"name_color" : 
-				{
-					"alpha" : 255,
-					"blue" : 255,
-					"green" : 191,
-					"red" : 0
-				},
+				"name_color0" : 255.0,
+				"name_color1" : 255.0,
+				"name_color2" : 255.0,
+				"name_color3" : 255.0,
+				"name_color4" : 2.350988701644575e-38,
 				"out_of_fov" : 
 				{
-					"color" : 
-					{
-						"alpha" : 255,
-						"blue" : 255,
-						"green" : 3,
-						"red" : 0
-					},
+					"color0" : 255.0,
+					"color1" : 255.0,
+					"color2" : 255.0,
+					"color3" : 255.0,
+					"color4" : 255.0,
 					"distance" : 30,
 					"enable" : true,
-					"size" : 17
+					"size" : 21
 				},
 				"show_multipoint" : true,
-				"skeleton" : false,
-				"skeleton_color" : 
-				{
-					"alpha" : 255,
-					"blue" : 255,
-					"green" : 255,
-					"red" : 255
-				},
-				"weapon" : false,
-				"weapon_color" : 
-				{
-					"alpha" : 255,
-					"blue" : 255,
-					"green" : 255,
-					"red" : 255
-				},
-				"weapon_mode" : 0
+				"skeleton" : true,
+				"skeleton_color0" : 255.0,
+				"skeleton_color1" : 255.0,
+				"skeleton_color2" : 255.0,
+				"skeleton_color3" : 255.0,
+				"skeleton_color4" : 255.00390625,
+				"weapon" : true,
+				"weapon_color0" : 255.0,
+				"weapon_color1" : 255.0,
+				"weapon_color2" : 255.0,
+				"weapon_color3" : 255.0,
+				"weapon_color4" : 255.00390625,
+				"weapon_type0" : false,
+				"weapon_type1" : true
 			},
 			"misc" : 
 			{
-				"aim_step" : true,
 				"aspect_ratio" : 0,
-				"blockbot" : 
-				{
-					"enable" : false
-				},
-				"blockbot_key" : 
-				{
-					"bind" : 
-					{
-						"active" : false,
-						"key" : 0,
-						"type" : 0
-					}
-				},
-				"doorspammer" : 
-				{
-					"enable" : false
-				},
-				"doorspammer_key" : 
-				{
-					"bind" : 
-					{
-						"active" : false,
-						"key" : 0,
-						"type" : 0
-					}
-				},
 				"eventlog" : 
 				{
-					"color" : 
-					{
-						"alpha" : 255,
-						"blue" : 0,
-						"green" : 255,
-						"red" : 32
-					},
+					"color0" : 255.0,
+					"color1" : 255.0,
+					"color2" : 255.0,
+					"color3" : 255.0,
+					"color4" : 2.3693558008761733e-38,
 					"enable" : true
 				},
-				"fog_density" : 0.0,
-				"fog_enable" : false,
-				"fog_end" : 0.0,
-				"fog_start" : 0.0,
 				"hitmarker" : 
 				{
-					"color" : 
-					{
-						"alpha" : 255,
-						"blue" : 255,
-						"green" : 255,
-						"red" : 255
-					},
+					"color0" : 255.0,
+					"color1" : 255.0,
+					"color2" : 255.0,
+					"color3" : 255.0,
+					"color4" : 255.00001525878906,
+					"custom_sound" : false,
 					"enable" : 2,
 					"enable_sound" : true
 				},
-				"hitmarker_sound_type" : 
+				"hitsound_custom" : 
 				{
-					"sound_type" : 0
+					"custom" : ""
 				},
-				"indicators" : 255,
-				"monitor" : true,
+				"indicators0" : true,
+				"indicators1" : true,
+				"indicators2" : true,
+				"indicators3" : true,
+				"indicators4" : true,
+				"indicators5" : true,
+				"indicators6" : true,
 				"nadepred" : 
 				{
-					"color" : 
-					{
-						"alpha" : 255,
-						"blue" : 255,
-						"green" : 255,
-						"red" : 255
-					},
 					"enable" : false
 				},
+				"nadepred_color0" : 255.0,
+				"nadepred_color1" : 255.0,
+				"nadepred_color2" : 255.0,
+				"nadepred_color3" : 255.0,
+				"nadepred_color4" : 255.00001525878906,
 				"spec_list" : false,
 				"thirdperson" : 
 				{
@@ -314,7 +387,7 @@
 						"key" : 86,
 						"type" : 2
 					},
-					"distance" : 245,
+					"distance" : 166,
 					"enable" : false
 				}
 			},
@@ -324,257 +397,219 @@
 				{
 					"enemy" : 
 					{
-						"brightness" : 225,
+						"anim" : false,
+						"brightness" : 300,
 						"enable" : true,
-						"material" : 2,
-						"metallic_color" : 
-						{
-							"alpha" : 150,
-							"blue" : 255,
-							"green" : 0,
-							"red" : 204
-						},
-						"overlay" : 1,
-						"overlay_color" : 
-						{
-							"alpha" : 155,
-							"blue" : 255,
-							"green" : 206,
-							"red" : 128
-						},
-						"overlay_xqz" : 1,
+						"material" : 3,
+						"metallic_color0" : 255.0,
+						"metallic_color1" : 229.0,
+						"metallic_color2" : 219.0,
+						"metallic_color3" : 150.0,
+						"metallic_color4" : 255.0,
+						"overlay" : 0,
+						"overlay_color0" : 255.0,
+						"overlay_color1" : 255.0,
+						"overlay_color2" : 255.0,
+						"overlay_color3" : 255.0,
+						"overlay_color4" : 255.0,
+						"overlay_xqz" : 0,
 						"pearlescent" : 0,
-						"phong_boost" : 80,
-						"phong_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 232,
-							"green" : 255,
-							"red" : 219
-						},
-						"phong_exponent" : 26,
+						"phong_boost" : 0,
+						"phong_color0" : 255.0,
+						"phong_color1" : 229.0,
+						"phong_color2" : 219.0,
+						"phong_color3" : 255.0,
+						"phong_color4" : 255.0,
+						"phong_exponent" : 0,
+						"pulse" : false,
 						"rim" : 0,
 						"through_walls" : true,
-						"through_walls_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 240,
-							"green" : 128,
-							"red" : 255
-						},
-						"visible_color" : 
-						{
-							"alpha" : 155,
-							"blue" : 255,
-							"green" : 206,
-							"red" : 128
-						},
-						"xqz_overlay_color" : 
-						{
-							"alpha" : 155,
-							"blue" : 240,
-							"green" : 128,
-							"red" : 255
-						}
+						"through_walls_color0" : 0.99999994039535522,
+						"through_walls_color1" : 0.99266868829727173,
+						"through_walls_color2" : 0.026401279494166374,
+						"through_walls_color3" : 255.0,
+						"through_walls_color4" : 255.0,
+						"visible_color0" : 0.31875944137573242,
+						"visible_color1" : 0.0,
+						"visible_color2" : 0.0063078482635319233,
+						"visible_color3" : 255.0,
+						"visible_color4" : 0.99999994039535522,
+						"xqz_overlay_color0" : 255.0,
+						"xqz_overlay_color1" : 255.0,
+						"xqz_overlay_color2" : 255.0,
+						"xqz_overlay_color3" : 255.0,
+						"xqz_overlay_color4" : 255.0
 					},
 					"local" : 
 					{
+						"anim" : false,
 						"blend_on_scope" : false,
 						"blend_value" : 0,
 						"brightness" : 100,
 						"enable" : false,
 						"interpolated" : false,
-						"material" : 1,
-						"metallic_color" : 
-						{
-							"alpha" : 150,
-							"blue" : 219,
-							"green" : 229,
-							"red" : 255
-						},
+						"material" : 0,
+						"metallic_color0" : 255.0,
+						"metallic_color1" : 229.0,
+						"metallic_color2" : 219.0,
+						"metallic_color3" : 150.0,
+						"metallic_color4" : 255.0,
 						"overlay" : 0,
-						"overlay_color" : 
-						{
-							"alpha" : 0,
-							"blue" : 0,
-							"green" : 0,
-							"red" : 0
-						},
-						"pearlescent" : 0,
+						"overlay_color0" : 0.0,
+						"overlay_color1" : 0.0,
+						"overlay_color2" : 0.0,
+						"overlay_color3" : 0.0,
+						"overlay_color4" : 200.0,
+						"pearlescent" : 1132396544,
 						"phong_boost" : 0,
-						"phong_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 219,
-							"green" : 229,
-							"red" : 255
-						},
+						"phong_color0" : 255.0,
+						"phong_color1" : 229.0,
+						"phong_color2" : 219.0,
+						"phong_color3" : 255.0,
+						"phong_color4" : 255.0,
 						"phong_exponent" : 0,
+						"pulse" : false,
 						"rim" : 0,
-						"visible_color" : 
-						{
-							"alpha" : 155,
-							"blue" : 255,
-							"green" : 206,
-							"red" : 128
-						}
+						"visible_color0" : 200.0,
+						"visible_color1" : 255.0,
+						"visible_color2" : 82.0,
+						"visible_color3" : 255.0,
+						"visible_color4" : 255.0
 					},
 					"misc_chams_0" : 
 					{
+						"anim" : false,
 						"brightness" : 100,
 						"enable" : false,
 						"material" : 0,
-						"metallic_color" : 
-						{
-							"alpha" : 150,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"model_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
+						"metallic_color0" : 255.0,
+						"metallic_color1" : 255.0,
+						"metallic_color2" : 255.0,
+						"metallic_color3" : 150.0,
+						"metallic_color4" : 255.0,
+						"model_color0" : 255.0,
+						"model_color1" : 255.0,
+						"model_color2" : 255.0,
+						"model_color3" : 255.0,
+						"model_color4" : 255.0,
 						"overlay" : 0,
-						"overlay_color" : 
-						{
-							"alpha" : 0,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"pearlescent" : 0,
+						"overlay_color0" : 255.0,
+						"overlay_color1" : 255.0,
+						"overlay_color2" : 255.0,
+						"overlay_color3" : 0.0,
+						"overlay_color4" : 1.4012984643248171e-43,
+						"pearlescent" : 1132396544,
 						"phong_boost" : 0,
-						"phong_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
+						"phong_color0" : 255.0,
+						"phong_color1" : 255.0,
+						"phong_color2" : 255.0,
+						"phong_color3" : 255.0,
+						"phong_color4" : 255.0,
 						"phong_exponent" : 0,
+						"pulse" : false,
 						"rim" : 0
 					},
 					"misc_chams_1" : 
 					{
+						"anim" : false,
 						"brightness" : 100,
 						"enable" : false,
 						"material" : 0,
-						"metallic_color" : 
-						{
-							"alpha" : 150,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"model_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
+						"metallic_color0" : 255.0,
+						"metallic_color1" : 255.0,
+						"metallic_color2" : 255.0,
+						"metallic_color3" : 150.0,
+						"metallic_color4" : 255.0,
+						"model_color0" : 255.0,
+						"model_color1" : 255.0,
+						"model_color2" : 255.0,
+						"model_color3" : 255.0,
+						"model_color4" : 255.0,
 						"overlay" : 0,
-						"overlay_color" : 
-						{
-							"alpha" : 0,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"pearlescent" : 0,
+						"overlay_color0" : 255.0,
+						"overlay_color1" : 255.0,
+						"overlay_color2" : 255.0,
+						"overlay_color3" : 0.0,
+						"overlay_color4" : 1.4012984643248171e-43,
+						"pearlescent" : 1132396544,
 						"phong_boost" : 0,
-						"phong_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
+						"phong_color0" : 255.0,
+						"phong_color1" : 255.0,
+						"phong_color2" : 255.0,
+						"phong_color3" : 255.0,
+						"phong_color4" : 255.0,
 						"phong_exponent" : 0,
+						"pulse" : false,
 						"rim" : 0
 					},
 					"misc_chams_2" : 
 					{
+						"anim" : false,
 						"brightness" : 100,
-						"enable" : true,
-						"interpolated" : true,
+						"enable" : false,
+						"interpolated" : false,
 						"material" : 0,
-						"metallic_color" : 
-						{
-							"alpha" : 150,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"model_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
+						"metallic_color0" : 255.0,
+						"metallic_color1" : 255.0,
+						"metallic_color2" : 255.0,
+						"metallic_color3" : 150.0,
+						"metallic_color4" : 255.0,
+						"model_color0" : 255.0,
+						"model_color1" : 255.0,
+						"model_color2" : 255.0,
+						"model_color3" : 255.0,
+						"model_color4" : 255.0,
 						"overlay" : 0,
-						"overlay_color" : 
-						{
-							"alpha" : 0,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"pearlescent" : 0,
+						"overlay_color0" : 255.0,
+						"overlay_color1" : 255.0,
+						"overlay_color2" : 255.0,
+						"overlay_color3" : 0.0,
+						"overlay_color4" : 1.4012984643248171e-43,
+						"pearlescent" : 1132396544,
 						"phong_boost" : 0,
-						"phong_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
+						"phong_color0" : 255.0,
+						"phong_color1" : 255.0,
+						"phong_color2" : 255.0,
+						"phong_color3" : 255.0,
+						"phong_color4" : 255.0,
 						"phong_exponent" : 0,
+						"pulse" : false,
 						"rim" : 0
 					},
 					"misc_chams_3" : 
 					{
+						"anim" : false,
 						"brightness" : 100,
 						"enable" : true,
+						"fix_animations" : false,
 						"interpolated" : true,
 						"material" : 2,
-						"metallic_color" : 
-						{
-							"alpha" : 150,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"model_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
+						"metallic_color0" : 255.0,
+						"metallic_color1" : 255.0,
+						"metallic_color2" : 255.0,
+						"metallic_color3" : 150.0,
+						"metallic_color4" : 255.0,
+						"model_color0" : 0.022204997017979622,
+						"model_color1" : 0.0,
+						"model_color2" : 0.61229199171066284,
+						"model_color3" : 255.0,
+						"model_color4" : 255.0,
+						"overlap" : false,
 						"overlay" : 0,
-						"overlay_color" : 
-						{
-							"alpha" : 0,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"pearlescent" : 0,
+						"overlay_color0" : 255.0,
+						"overlay_color1" : 255.0,
+						"overlay_color2" : 255.0,
+						"overlay_color3" : 0.0,
+						"overlay_color4" : 1.4012984643248171e-43,
+						"pearlescent" : 1132396544,
 						"phong_boost" : 0,
-						"phong_color" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
+						"phong_color0" : 255.0,
+						"phong_color1" : 255.0,
+						"phong_color2" : 255.0,
+						"phong_color3" : 255.0,
+						"phong_color4" : 255.0,
 						"phong_exponent" : 0,
+						"pulse" : true,
 						"rim" : 0
 					}
 				},
@@ -582,130 +617,101 @@
 				{
 					"enemy" : 
 					{
-						"color" : 
-						{
-							"alpha" : 100,
-							"blue" : 240,
-							"green" : 128,
-							"red" : 255
-						},
-						"enable" : false
+						"color0" : 214.0,
+						"color1" : 192.0,
+						"color2" : 47.0,
+						"color3" : 255.0,
+						"color4" : 255.0,
+						"enable" : true
 					},
 					"local" : 
 					{
-						"color" : 
-						{
-							"alpha" : 255,
-							"blue" : 47,
-							"green" : 192,
-							"red" : 214
-						},
+						"color0" : 214.0,
+						"color1" : 192.0,
+						"color2" : 47.0,
+						"color3" : 255.0,
+						"color4" : 2.3694278276172396e-38,
 						"enable" : false
 					},
-					"style" : 0
+					"style" : 1132396544
 				}
 			}
 		},
 		"ragebot" : 
 		{
-			"aim_step" : true,
 			"auto_scope" : true,
 			"auto_shoot" : true,
-			"autoshoot_key" : 
+			"autopeek" : 
 			{
-				"active" : true,
-				"key" : 0,
-				"type" : 0
+				"active" : false,
+				"key" : 90,
+				"type" : 2
 			},
-			"backtrack_enable" : false,
-			"do_recoil" : true,
+			"backshoot_bt" : false,
+			"delayshot" : false,
 			"double_tap" : 
 			{
 				"active" : true,
 				"key" : 4,
 				"type" : 2
 			},
-			"dt_delay" : 0,
-			"dt_instant" : true,
-			"dt_speed_boost" : 100,
+			"dt_instant" : false,
 			"enable" : true,
-			"extended_backtracking" : true,
-			"fake_latency" : true,
-			"fake_latency_value" : 0,
 			"force_body" : 
 			{
 				"active" : false,
 				"key" : 112,
 				"type" : 2
 			},
-			"hide_shots" : 
-			{
-				"active" : true,
-				"key" : 90,
-				"type" : 2
-			},
 			"hitchance_consider_hitbox" : true,
-			"ignore_limbs_if_moving" : false,
-			"improve_accuracy" : false,
-			"matchmaking_mode" : false,
-			"onshot_invert" : false,
 			"override_dmg" : 
 			{
 				"active" : false,
 				"key" : 0,
-				"type" : 0
+				"type" : 2
 			},
-			"resolver" : false,
-			"resolver2" : false,
-			"resolver3" : true,
-			"resolver4" : false,
-			"resolver5" : false,
-			"resolver_da_maximum" : 0.0,
-			"resolver_da_maximum_brute" : 0.0,
-			"resolver_da_minimum" : 0.0,
-			"resolver_da_minimum_brute" : 0.0,
-			"resolver_db_maximum" : 0.0,
-			"resolver_db_maximum_brute" : 0.0,
-			"resolver_db_minimum" : 0.0,
-			"resolver_db_minimum_brute" : 0.0,
-			"resolver_extra_angles" : 0.0,
-			"resolver_first_shot_angles" : 0.0,
-			"resolver_mode" : 0,
-			"shot_clr" : 
-			{
-				"alpha" : 255,
-				"blue" : 0,
-				"green" : 255,
-				"red" : 95
-			},
-			"shot_record" : true,
-			"teleport" : 
-			{
-				"active" : false,
-				"key" : 0,
-				"type" : 0
-			},
+			"posadj" : true,
+			"resolver" : true,
+			"shot_clr0" : 255.0,
+			"shot_clr1" : 255.0,
+			"shot_clr2" : 255.0,
+			"shot_clr3" : 255.0,
+			"shot_clr4" : 255.0,
+			"shot_record" : false,
 			"weapon_cfg" : 
 			{
 				"weapon_0" : 
 				{
-					"accuracy_boost" : 0,
 					"adaptive_baim" : false,
-					"baim" : 0,
+					"baim0" : false,
+					"baim1" : false,
+					"baim2" : false,
+					"baim3" : false,
 					"baim_under_hp" : 0,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : false,
 					"enable" : false,
-					"hitchance" : 24,
+					"hitchance" : 0,
 					"hitchance_type" : 0,
-					"hitscan" : 0,
-					"hitscan_baim" : 0,
-					"max_misses" : 1,
+					"hitscan0" : false,
+					"hitscan1" : false,
+					"hitscan2" : false,
+					"hitscan3" : false,
+					"hitscan4" : false,
+					"hitscan5" : false,
+					"hitscan6" : false,
+					"hitscan7" : false,
+					"hitscan8" : false,
+					"hitscan9" : false,
+					"hitscan_baim0" : false,
+					"hitscan_baim1" : false,
+					"hitscan_baim2" : false,
+					"hitscan_baim3" : false,
+					"hitscan_baim4" : false,
+					"hitscan_baim5" : false,
+					"hitscan_baim6" : false,
+					"max_misses" : 0,
 					"mindamage" : 0,
 					"mindamage_override" : 0,
 					"multipoint" : false,
-					"onshot_priority" : false,
 					"pointscale_body" : 0,
 					"pointscale_head" : 0,
 					"pointscale_limbs" : 0,
@@ -714,227 +720,230 @@
 				},
 				"weapon_1" : 
 				{
-					"accuracy_boost" : 0,
 					"adaptive_baim" : true,
-					"baim" : 4,
+					"baim0" : false,
+					"baim1" : false,
+					"baim2" : true,
+					"baim3" : false,
 					"baim_under_hp" : 1,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : true,
 					"enable" : true,
-					"hitchance" : 40,
-					"hitchance_type" : 0,
-					"hitscan" : 511,
-					"hitscan_baim" : 31,
-					"max_misses" : 3,
-					"mindamage" : 0,
+					"hitchance" : 39,
+					"hitchance_type" : 1,
+					"hitscan0" : true,
+					"hitscan1" : true,
+					"hitscan2" : true,
+					"hitscan3" : true,
+					"hitscan4" : true,
+					"hitscan5" : true,
+					"hitscan6" : true,
+					"hitscan7" : true,
+					"hitscan8" : false,
+					"hitscan9" : true,
+					"hitscan_baim0" : true,
+					"hitscan_baim1" : true,
+					"hitscan_baim2" : true,
+					"hitscan_baim3" : true,
+					"hitscan_baim4" : true,
+					"hitscan_baim5" : false,
+					"hitscan_baim6" : false,
+					"max_misses" : 0,
+					"mindamage" : 50,
 					"mindamage_override" : 0,
 					"multipoint" : true,
-					"onshot_priority" : false,
-					"pointscale_body" : 88,
-					"pointscale_head" : 81,
+					"pointscale_body" : 72,
+					"pointscale_head" : 62,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
 					"quickstop_options" : 0
 				},
 				"weapon_2" : 
 				{
-					"accuracy_boost" : 0,
 					"adaptive_baim" : false,
-					"baim" : 4,
+					"baim0" : false,
+					"baim1" : false,
+					"baim2" : false,
+					"baim3" : false,
 					"baim_under_hp" : 1,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : false,
 					"enable" : true,
-					"hitchance" : 40,
-					"hitchance_type" : 0,
-					"hitscan" : 7,
-					"hitscan_baim" : 7,
-					"max_misses" : 1,
+					"hitchance" : 46,
+					"hitchance_type" : 1,
+					"hitscan0" : true,
+					"hitscan1" : true,
+					"hitscan2" : true,
+					"hitscan3" : true,
+					"hitscan4" : false,
+					"hitscan5" : true,
+					"hitscan6" : true,
+					"hitscan7" : true,
+					"hitscan8" : false,
+					"hitscan9" : false,
+					"hitscan_baim0" : true,
+					"hitscan_baim1" : true,
+					"hitscan_baim2" : true,
+					"hitscan_baim3" : true,
+					"hitscan_baim4" : true,
+					"hitscan_baim5" : false,
+					"hitscan_baim6" : false,
+					"max_misses" : 0,
 					"mindamage" : 100,
 					"mindamage_override" : 0,
 					"multipoint" : true,
-					"onshot_priority" : false,
-					"pointscale_body" : 74,
-					"pointscale_head" : 90,
+					"pointscale_body" : 71,
+					"pointscale_head" : 71,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
 					"quickstop_options" : 0
 				},
 				"weapon_3" : 
 				{
-					"accuracy_boost" : 0,
-					"adaptive_baim" : true,
-					"baim" : 4,
-					"baim_under_hp" : 63,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : false,
-					"enable" : true,
-					"hitchance" : 20,
+					"adaptive_baim" : false,
+					"baim0" : false,
+					"baim1" : false,
+					"baim2" : false,
+					"baim3" : false,
+					"baim_under_hp" : 0,
+					"enable" : false,
+					"hitchance" : 0,
 					"hitchance_type" : 0,
-					"hitscan" : 511,
-					"hitscan_baim" : 3,
-					"max_misses" : 2,
-					"mindamage" : 100,
+					"hitscan0" : false,
+					"hitscan1" : false,
+					"hitscan2" : false,
+					"hitscan3" : false,
+					"hitscan4" : false,
+					"hitscan5" : false,
+					"hitscan6" : false,
+					"hitscan7" : false,
+					"hitscan8" : false,
+					"hitscan9" : false,
+					"hitscan_baim0" : false,
+					"hitscan_baim1" : false,
+					"hitscan_baim2" : false,
+					"hitscan_baim3" : false,
+					"hitscan_baim4" : false,
+					"hitscan_baim5" : false,
+					"hitscan_baim6" : false,
+					"max_misses" : 0,
+					"mindamage" : 0,
 					"mindamage_override" : 0,
-					"multipoint" : true,
-					"onshot_priority" : true,
-					"pointscale_body" : 68,
-					"pointscale_head" : 26,
+					"multipoint" : false,
+					"pointscale_body" : 0,
+					"pointscale_head" : 0,
 					"pointscale_limbs" : 0,
-					"quickstop" : true,
+					"quickstop" : false,
 					"quickstop_options" : 0
 				},
 				"weapon_4" : 
 				{
-					"accuracy_boost" : 0,
-					"adaptive_baim" : true,
-					"baim" : 6,
-					"baim_under_hp" : 54,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : true,
-					"enable" : true,
-					"hitchance" : 30,
+					"adaptive_baim" : false,
+					"baim0" : false,
+					"baim1" : false,
+					"baim2" : false,
+					"baim3" : false,
+					"baim_under_hp" : 0,
+					"enable" : false,
+					"hitchance" : 0,
 					"hitchance_type" : 0,
-					"hitscan" : 511,
-					"hitscan_baim" : 7,
-					"max_misses" : 3,
+					"hitscan0" : false,
+					"hitscan1" : false,
+					"hitscan2" : false,
+					"hitscan3" : false,
+					"hitscan4" : false,
+					"hitscan5" : false,
+					"hitscan6" : false,
+					"hitscan7" : false,
+					"hitscan8" : false,
+					"hitscan9" : false,
+					"hitscan_baim0" : false,
+					"hitscan_baim1" : false,
+					"hitscan_baim2" : false,
+					"hitscan_baim3" : false,
+					"hitscan_baim4" : false,
+					"hitscan_baim5" : false,
+					"hitscan_baim6" : false,
+					"max_misses" : 0,
 					"mindamage" : 0,
 					"mindamage_override" : 0,
-					"multipoint" : true,
-					"onshot_priority" : true,
-					"pointscale_body" : 61,
-					"pointscale_head" : 66,
+					"multipoint" : false,
+					"pointscale_body" : 0,
+					"pointscale_head" : 0,
 					"pointscale_limbs" : 0,
-					"quickstop" : true,
-					"quickstop_options" : 2
+					"quickstop" : false,
+					"quickstop_options" : 0
 				},
 				"weapon_5" : 
 				{
-					"accuracy_boost" : 0,
-					"adaptive_baim" : true,
-					"baim" : 4,
+					"adaptive_baim" : false,
+					"baim0" : false,
+					"baim1" : false,
+					"baim2" : false,
+					"baim3" : false,
 					"baim_under_hp" : 1,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : true,
 					"enable" : true,
-					"hitchance" : 32,
-					"hitchance_type" : 0,
-					"hitscan" : 511,
-					"hitscan_baim" : 3,
-					"max_misses" : 1,
-					"mindamage" : 0,
+					"hitchance" : 41,
+					"hitchance_type" : 1,
+					"hitscan0" : true,
+					"hitscan1" : false,
+					"hitscan2" : true,
+					"hitscan3" : true,
+					"hitscan4" : true,
+					"hitscan5" : true,
+					"hitscan6" : true,
+					"hitscan7" : true,
+					"hitscan8" : false,
+					"hitscan9" : false,
+					"hitscan_baim0" : false,
+					"hitscan_baim1" : false,
+					"hitscan_baim2" : false,
+					"hitscan_baim3" : false,
+					"hitscan_baim4" : false,
+					"hitscan_baim5" : false,
+					"hitscan_baim6" : false,
+					"max_misses" : 0,
+					"mindamage" : 45,
 					"mindamage_override" : 0,
 					"multipoint" : true,
-					"onshot_priority" : false,
-					"pointscale_body" : 91,
-					"pointscale_head" : 86,
+					"pointscale_body" : 52,
+					"pointscale_head" : 65,
 					"pointscale_limbs" : 0,
-					"quickstop" : false,
+					"quickstop" : true,
 					"quickstop_options" : 0
 				},
 				"weapon_6" : 
 				{
-					"accuracy_boost" : 0,
 					"adaptive_baim" : false,
-					"baim" : 4,
-					"baim_under_hp" : 55,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : false,
+					"baim0" : false,
+					"baim1" : false,
+					"baim2" : true,
+					"baim3" : false,
+					"baim_under_hp" : 0,
 					"enable" : true,
-					"hitchance" : 31,
-					"hitchance_type" : 0,
-					"hitscan" : 511,
-					"hitscan_baim" : 3,
-					"max_misses" : 3,
-					"mindamage" : 91,
+					"hitchance" : 41,
+					"hitchance_type" : 1,
+					"hitscan0" : true,
+					"hitscan1" : true,
+					"hitscan2" : true,
+					"hitscan3" : true,
+					"hitscan4" : true,
+					"hitscan5" : true,
+					"hitscan6" : true,
+					"hitscan7" : true,
+					"hitscan8" : true,
+					"hitscan9" : false,
+					"hitscan_baim0" : true,
+					"hitscan_baim1" : true,
+					"hitscan_baim2" : true,
+					"hitscan_baim3" : true,
+					"hitscan_baim4" : true,
+					"hitscan_baim5" : false,
+					"hitscan_baim6" : false,
+					"max_misses" : 0,
+					"mindamage" : 34,
 					"mindamage_override" : 0,
 					"multipoint" : true,
-					"onshot_priority" : false,
-					"pointscale_body" : 86,
-					"pointscale_head" : 71,
+					"pointscale_body" : 57,
+					"pointscale_head" : 59,
 					"pointscale_limbs" : 0,
 					"quickstop" : true,
-					"quickstop_options" : 0
-				},
-				"weapon_7" : 
-				{
-					"accuracy_boost" : 0,
-					"adaptive_baim" : false,
-					"baim" : 0,
-					"baim_under_hp" : 0,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : false,
-					"enable" : false,
-					"hitchance" : 0,
-					"hitchance_type" : 0,
-					"hitscan" : 0,
-					"hitscan_baim" : 0,
-					"max_misses" : 0,
-					"mindamage" : 0,
-					"mindamage_override" : 0,
-					"multipoint" : false,
-					"onshot_priority" : false,
-					"pointscale_body" : 0,
-					"pointscale_head" : 0,
-					"pointscale_limbs" : 0,
-					"quickstop" : false,
-					"quickstop_options" : 0
-				},
-				"weapon_8" : 
-				{
-					"accuracy_boost" : 0,
-					"adaptive_baim" : false,
-					"baim" : 4,
-					"baim_under_hp" : 1,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : false,
-					"enable" : true,
-					"hitchance" : 0,
-					"hitchance_type" : 0,
-					"hitscan" : 511,
-					"hitscan_baim" : 31,
-					"max_misses" : 0,
-					"mindamage" : 25,
-					"mindamage_override" : 0,
-					"multipoint" : true,
-					"onshot_priority" : false,
-					"pointscale_body" : 91,
-					"pointscale_head" : 62,
-					"pointscale_limbs" : 0,
-					"quickstop" : true,
-					"quickstop_options" : 0
-				},
-				"weapon_9" : 
-				{
-					"accuracy_boost" : 0,
-					"adaptive_baim" : false,
-					"baim" : 0,
-					"baim_under_hp" : 0,
-					"delayshot" : false,
-					"delayshot_value" : 0,
-					"dynamic_mindamage" : true,
-					"enable" : true,
-					"hitchance" : 40,
-					"hitchance_type" : 0,
-					"hitscan" : 28,
-					"hitscan_baim" : 0,
-					"max_misses" : 1,
-					"mindamage" : 120,
-					"mindamage_override" : 0,
-					"multipoint" : false,
-					"onshot_priority" : false,
-					"pointscale_body" : 0,
-					"pointscale_head" : 0,
-					"pointscale_limbs" : 0,
-					"quickstop" : false,
 					"quickstop_options" : 0
 				}
 			}
@@ -943,87 +952,89 @@
 		{
 			"effects" : 
 			{
+				"bloom" : 
+				{
+					"ambient" : 0,
+					"enable" : false,
+					"value" : 0
+				},
+				"density" : 0.0,
+				"distance" : 0.0,
+				"fog" : 
+				{
+					"enable" : false,
+					"fog0" : 255.0,
+					"fog1" : 255.0,
+					"fog2" : 255.0,
+					"fog3" : 255.0,
+					"fog4" : 255.0
+				},
 				"force_crosshair" : true,
-				"fullbright" : false,
 				"kill_effect" : true,
 				"nightmode" : 
 				{
-					"color" : 
-					{
-						"prop" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"skybox" : 
-						{
-							"alpha" : 255,
-							"blue" : 255,
-							"green" : 255,
-							"red" : 255
-						},
-						"world" : 
-						{
-							"alpha" : 255,
-							"blue" : 46,
-							"green" : 41,
-							"red" : 43
-						}
-					},
-					"enable" : false
+					"enable" : false,
+					"prop0" : 255.0,
+					"prop1" : 255.0,
+					"prop2" : 255.0,
+					"prop3" : 255.0,
+					"prop4" : 255.0,
+					"skybox0" : 255.0,
+					"skybox1" : 0.0,
+					"skybox2" : 0.0,
+					"skybox3" : 0.0,
+					"skybox4" : 2.3261554507791963e-43,
+					"world0" : 0.26529970765113831,
+					"world1" : 0.2652888298034668,
+					"world2" : 0.26531535387039185,
+					"world3" : 255.0,
+					"world4" : 255.0
 				},
-				"ragdoll_enable" : false,
-				"ragdoll_force" : 58,
-				"removals" : 255,
-				"remove3d_sky" : false,
-				"skybox" : 0,
+				"removals0" : true,
+				"removals1" : true,
+				"removals2" : true,
+				"removals3" : true,
+				"removals4" : true,
+				"removals5" : true,
+				"removals6" : true,
+				"removals7" : true,
 				"viewmodel_fov" : 68,
-				"world_fov" : 90
+				"world_fov" : 99
 			},
 			"tracers" : 
 			{
 				"bullet_impact" : 
 				{
-					"color" : 
-					{
-						"alpha" : 255,
-						"blue" : 255,
-						"green" : 0,
-						"red" : 0
-					},
-					"enable" : false
+					"color0" : 0.0,
+					"color1" : 0.0,
+					"color2" : 255.0,
+					"color3" : 255.0,
+					"color4" : 255.0,
+					"enable" : true
 				},
 				"bullet_impact_client" : 
 				{
-					"color" : 
-					{
-						"alpha" : 255,
-						"blue" : 0,
-						"green" : 0,
-						"red" : 255
-					}
+					"color0" : 255.0,
+					"color1" : 0.0,
+					"color2" : 0.0,
+					"color3" : 255.0,
+					"color4" : 1.3799999952316284
 				},
 				"bullet_tracer" : 
 				{
-					"color" : 
-					{
-						"alpha" : 255,
-						"blue" : 0,
-						"green" : 0,
-						"red" : 255
-					},
+					"color0" : 0.61403954029083252,
+					"color1" : 0.0,
+					"color2" : 0.0,
+					"color3" : 255.0,
+					"color4" : 255.00392150878906,
 					"enable" : true,
 					"local" : true,
-					"local_color" : 
-					{
-						"alpha" : 0,
-						"blue" : 0,
-						"green" : 255,
-						"red" : 86
-					},
-					"size" : 0.0,
+					"local_color0" : 0.73890542984008789,
+					"local_color1" : 0.038275837898254395,
+					"local_color2" : 0.091421604156494141,
+					"local_color3" : 255.0,
+					"local_color4" : 0.0,
+					"size" : 1.3799999952316284,
 					"sprite" : 0
 				}
 			}
